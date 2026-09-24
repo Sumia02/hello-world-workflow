@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Run hello-world
-        run: docker run hello-world
+        run: bash image.sh
